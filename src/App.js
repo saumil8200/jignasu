@@ -14,9 +14,6 @@ function App() {
       <Route path="/jignasu" element={<Home/>}/>
     </Routes>
     </BrowserRouter>
-    <div>
-      Hello!
-    </div>
     </>
   );
 }
