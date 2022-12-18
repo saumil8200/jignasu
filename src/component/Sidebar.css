@@ -1,0 +1,42 @@
+.tab{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buton{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.buton:hover{
+    background-color: #af654c; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.buton:active{
+    background-color: #ffffff; /* Green */
+    border: none;
+    color: rgb(31, 29, 29);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.div{
+    margin-top: 10vh;
+}
