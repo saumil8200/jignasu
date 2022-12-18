@@ -12,28 +12,30 @@ function Sidebar() {
   const navigate = useNavigate();
   return (
     <>
+    <div className="sidebar">
         <Grid container spacing={5} justifyContent="center" alignItems="center">
-            <Grid item xs={6} md={12} className="tab">
+            <Grid item xs={12} md={12} className="tab">
                 <div className="tab">
                     <button onClick={() => navigate('/jignasu')} className="buton">Home</button>
                 </div>
             </Grid>
-            <Grid item xs={6} md={12}>
+            <Grid item xs={12} md={12}>
                 <div className="tab">
                     <button onClick={() => navigate('/jignasu/resume')} className="buton">Resume</button>
                 </div>
             </Grid>
-            <Grid item xs={6} md={12}>
+            <Grid item xs={12} md={12}>
                 <div className="tab">
                     <button onClick={() => navigate('/jignasu/project')} className="buton">Projects</button>
                 </div>
             </Grid>
-            <Grid item xs={6} md={12}>
+            <Grid item xs={12} md={12}>
                 <div className="tab">
                     <button onClick={() => navigate('/jignasu/aboutme')} className="buton">About me</button>
                 </div>
             </Grid>
         </Grid>
+        </div>
     </>
   )
 }

@@ -12,7 +12,7 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 1vw;
 }
 
 .buton:hover{
@@ -23,7 +23,7 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 1vw;
 }
 
 .buton:active{
@@ -34,9 +34,9 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 1vw;
 }
 
-.div{
-    margin-top: 10vh;
+.sidebar{
+    margin-top: 5vw; 
 }

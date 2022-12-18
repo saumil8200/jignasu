@@ -5,6 +5,7 @@ import Bio from "../component/Bio";
 import Photo from "../component/Photo";
 import { Grid } from '@mui/material';
 import Sidebar from "../component/Sidebar";
+import "./Resume.css";
 
 function Resume() {
   return (
@@ -13,12 +14,10 @@ function Resume() {
         <Grid item xs={2} md={2}>
                     <Sidebar/>
             </Grid>
-            <Grid item xs={5} md={7}>
+            <Grid item xs={10} md={10}>
+                <h1 className='ResumeTitle'>Resume</h1>
                 <Education/>
-            </Grid>
-            <Grid item xs={5} md={3}>
-                    <Photo/>
-            </Grid>    
+            </Grid> 
         </Grid>
     </>
   )

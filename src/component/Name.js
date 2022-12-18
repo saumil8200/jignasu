@@ -4,7 +4,7 @@ import "./Name.css";
 function Name() {
   return (
     <>
-    <h1>Jignasu Pathak</h1>
+    <h1 className='Name'>Jignasu Pathak</h1>
     <h3>Seeking Full-time opportunities in Software Engineering and Machine Learning roles from May 2023</h3>
     </>
   )
